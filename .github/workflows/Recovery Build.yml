@@ -46,7 +46,7 @@ jobs:
   build:
     if: github.event.repository.owner.id == github.event.sender.id
     runs-on: ubuntu-latest
-    github runnner: self-hosted
+    githubrunnner: self-hosted
     permissions:
       contents: write
     steps:
