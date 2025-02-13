@@ -103,7 +103,7 @@ jobs:
 
     - name: Repo Sync
       run: |
-        repo sync
+        repo sync -f -j10
       working-directory: workspace
 
     - name: Clone device tree
